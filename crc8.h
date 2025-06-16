@@ -4,7 +4,6 @@
 typedef unsigned char uint8;
 typedef unsigned long uint32;
 
-void hello(void);
 uint8 CRC8Compute(const uint8 *data, uint32 len, uint8 initVal);
 
 #endif //CRC8_IMPL_LIBRARY_H
